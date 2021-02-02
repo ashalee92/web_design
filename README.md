@@ -2,4 +2,5 @@
 
 <h1>My Web Projects</h1>
 
-<a href="LabDemo1/index.html">Lab Demo 1</a>
+<a href="LabDemo1/index.html">Lab Demo 1</a><br>
+<a href="LabDemo2/index.html">Lab Demo 2</a>
