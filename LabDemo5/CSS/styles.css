@@ -15,13 +15,11 @@ body {
 }
 
 header {
-    background-color: none;
     padding: 20px 2px 4px;
     text-align: center;
     color: #F2B807;
     font-size: 1.5em;
     display: block;
-    
 }
 
 nav {
