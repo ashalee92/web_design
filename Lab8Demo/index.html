@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Demo 8 - </title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/humanity/jquery-ui.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Animal Crossing</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Game Play</a></li>
+                <li><a href="#">Items</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Photos</h2>
+                <div class="slider">
+                    <div><img src="Images/animalcrossing1.jpg" alt="Group Photo" style="width:100%"></div>
+                    <div><img src="Images/gameplay2.jpg" alt="Gameplay 2"></div>
+                    <div><img src="Images/gameplay3.jpg" alt="Gameplay 3" style="width:100%">
+                    </div>
+                  </div>
+            </section>
+            <section>
+                <h2>Game Play Reviews</h2>
+                <div id="accordion">
+                    <h3>This game is sooooo fun!!!</h3>
+                    <div>
+                      <p>
+                      This game was such a fun time. I can't even explain how much I loved it. Especially because it came out during quarantine, I was able to play for hours on end and it did not disappoint. Hours of fun, got my island to 5 stars in no time. 10 out of 10 recommend this game when you are trying to kill time.  
+                      </p>
+                    </div>
+                    <h3>Loading time is slow, but great game.</h3>
+                    <div>
+                      <p>
+                      My only flaw with this game is how long certain things took to load. You have to go through the full animation everytime you play and that is pretty annoying. One and done is how it should be. Other than that I really enjoyed this game. Killed time when I needed it to. Also made me buy the beautiful switch lite in yellow and I fell in love immediately. 
+                      </p>
+                    </div>
+                    <h3>Takes you back to the old game.</h3>
+                    <div>
+                      <p>
+                     Have you played the old games? Back when you had it on the GameCube, or the Ninetendo DS. This is a throwback and was so much fun to play. Makes me want to rebuy the old systems and games to see how everything is upgraded. The wait was very much worth it and I had hours of fun. So fun that I got to visit my friends islands and get items that I couldn't get. This game also has so many easter eggs that if ever wanted to know about make sure to google them!
+                      </p>
+                    </div>
+                    <h3>I hate it, one star.</h3>
+                    <div>
+                      <p>
+                    I hated this game. I never played the old ones and wow I am glad that I didn't. This game is so boring. Why would I want to build a community. What about that sounds like a good time. This game was so hyped and I don't even understand it. My friends have been raving about it and I told them how stupid they are!
+                      </p>
+                      <p>
+                    I really can't believe this game got so much hype. I think that because everyone was in lockdown that was the only reason they liked this game. I see no other reason why. So many better games on the switch to play. Go play those and don't waste your money on a raccoon stealing loads of money from you for an island you are doing all the work on. 
+                      </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Game Information</h2>
+                <div class="widget">
+                    <fieldset>
+                      <legend>Your Gameplay</legend>
+                      <div class="controlgroup">
+                        <select id="game-type">
+                          <option>Animal Crossing
+                          </option>
+                          <option>Animal Crossing: Wild World</option>
+                          <option>Animal Crossing: City Fold</option>
+                          <option>Animal Crossing: New Leaf</option>
+                          <option>Animal Crossing: New Horizons</option>
+                        </select>
+                        <label for="system-gamecube">GameCube</label>
+                        <input type="checkbox" name="game" id="system-gamecube">
+                        <label for="system-NintendoDS">Nintendo DS</label>
+                        <input type="checkbox" name="game" id="system-NintendoDS">
+                        <label for="system-NintendoSwitch">Nintendo Switch</label>
+                        <input type="checkbox" name="game" id="system-NintendoSwitch">
+                        <label for="horizontal-spinner" class="ui-controlgroup-label"> How Many Hours of Gameplay</label>
+                        <input id="horizontal-spinner" class="ui-spinner-input">
+                        <button>Let Us Know!</button>
+                      </div>
+                    </fieldset>
+                  </div>
+            </section>
+            <section>
+                <h2>Average Age of Play</h2>
+                    <p><label for="age">Your age:</label><input id="age" title="We love to know the average age of the players!"></p>
+            </section>
+        </main>
+        <footer>&copy; 2021 Lab Demo 8 - Animal Crossing</footer>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="JS/zenscroll-min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( ".controlgroup" ).controlgroup()
+            $( document ).tooltip();
+        });
+    </script>
+</body>
+</html>
