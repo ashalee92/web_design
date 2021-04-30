@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div id="container">
+        <img src="Images/harrypotterheader.png" alt="banner" class="center">
+        <header>The Wonderful World of Harry Potter</header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fas fa-quidditch"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-book"></i> About</a></li>
+                <li><a href="hogwarts.html"><i class="fab fa-fort-awesome"></i> Hogwarts</a></li>
+                <li><a href="houses.html"><i class="fas fa-home"></i> Houses</a></li>
+                <li><a href="wands.html"><i class="fas fa-magic"></i> Wands</a></li>
+            </ul>
+        </nav>
+        <main><br><br>
+            <img src="Images/hogwarthouses1.jpg" alt="hogwarts house banner">
+            <h1>The Four Houses of Hogwarts</h1>
+            <p>There are four houses in Hogwarts School of Wizardry. The houses are place meant for living and learning. And each House has a way of winning or losing points which at the end of the year gives them a chance to win the House Cup.</p>
+
+            <p>The four founders of Hogwarts would hand pick students when they were alive, but feared what they would do after their inevitable deaths. So Godric Gryffindor created the sorting hat. So every year at the very beginning the new students would be apart of a Sorting Ceremony. The sorting hat is placed on their head and tells which house each student will be apart of for the next four years.</p>
+
+            <p>Each house has its own space in the castle located at various areas. Each one containing a common room and the dormitory. Where students spend most of their time with their own housemates. Each house also has its own table in the Great Hall. And the students interact with their own House mainly, but classes are with other Houses and they are allowed to interact with anyone they want to. Most stick to who is in their own House though.</p>
+
+            <img src="Images/gryffindor.png" alt="gryffindor" id="houses"><h2 style="background-color: #650000; color: #E09C0A">Gryffindor</h2>
+            <p>Gryffindors value bravery, daring, nerve and chilvrey. Its emblematic animal is the lion, and the color scheme is scarlet and gold. The Head of House currently is Minerva McGonagail. The House Ghost is Sir Nicholas de Mimsy-Porpington, also known as Nearly Headless Nick. Godric Gryffindor is the founder of this house. The element for this house is fire. </p><br>
+
+            <img src="Images/hufflepuff.png" alt="hufflepuff" id="houses1"><h2 style="background-color: #1F1E19; color: #FF9D0B">Hufflepuff</h2>
+            <p>Hufflepuff values hard work, dedication, patience, loyalty, and fair play. Its emblematic animal is the badger, and the color scheme is yellow and black. The current Head of House is unknown, with the last one being Professor Sprout having left the post in 2017. The House Ghost is the Fat Friar. Helga Hufflepuff is the founder of this house. The element for this hosue is earth.</p><br>
+
+            <img src="Images/ravenclaw.png" alt="ravenclaw" id="houses2"><h2 style="background-color: #1A3956; color: #8E501E">Ravenclaw</h2>
+            <p>Ravenclaw values intelligence, knowledge, curiosity, creativity and wit. Its emblematic animal is the eagle, and the color scheme is blue and bronze. The most recent Head of House was Filius Filtwick. The House Ghost is the Grey Lady, who is the daughter of the founder of Ravenclaw. The founders name being Rowena Ravenclaw. The element for this house is air.</p><br>
+
+            <img src="Images/slytherin.png" alt="slytherin" id="houses3"><h2 style="background-color: #2F751C; color: #CCCCCC">Slytherin</h2>
+            <p>Slytherin values ambition, leadership, self-preservation, cunning and resourcefullness. Its emblematic animal is the serpent, and the color scheme is emerald green and silver. The Head of House was Severus Snape. The House Ghost is the Bloody Baron. The founder fo the House was Salazar Slytherin. The element for this house is water. Slytherin has produced the most Death Eaters and Dark Wizards.</p><br>
+        </main>
+        <footer>
+            <p>&copy; 2021<a href="https://www.wizardingworld.com" target="blank">Wizarding World of Harry Potter</a></p>
+        </footer>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+    <script src="JS/jquery.slicknav.min.js"></script>
+    <script src="JS/zenscroll-min.js"></script>
+    <script src="https://kit.fontawesome.com/132925593f.js" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+</body>
+</html>

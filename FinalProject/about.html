@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div id="container">
+        <img src="Images/harrypotterheader.png" alt="banner" class="center">
+        <header>The Wonderful World of Harry Potter</header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fas fa-quidditch"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-book"></i> About</a></li>
+                <li><a href="hogwarts.html"><i class="fab fa-fort-awesome"></i> Hogwarts</a></li>
+                <li><a href="houses.html"><i class="fas fa-home"></i> Houses</a></li>
+                <li><a href="wands.html"><i class="fas fa-magic"></i> Wands</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>About Harry Potter</h1>
+
+             <p>Harry Potter is a series of fantasy novels written by British author J.K. Rowling. The noval follows a young wizard, Harry Potter, and his two friends Ron Weasley and Hermione Granger. They all attend Hogwarts School of Witchcraft and Wizardry. The main story is about Harry's struggles against Lord Voldemort, someone who wants to become immortal and take over the Ministry of Magic.</p>
+
+            <p>As of February 2018, the books have sold over 500 million copies, making this the best-selling book series in history. It has also been translated in about 80 languages.</p>
+
+            <img src="Images/books.jpeg" alt="books" class="wands">
+
+            <p>The first book was published June 1997 and there are seven books in total. The series was such a success that books were turned into a series of 8 movies.</p>
+
+            <p>Warner Bros distributed the series of movies. Eventually leading to the spin-off sequal that consist fo five films called Fantastic Beasts, marking the beginning of the Wizarding World shared media franchise.</p>
+
+            <img src="Images/movies.jpg" alt="movies">
+
+            <p>The movie series stars Daniel Radcliffe as Harry Potter, Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger being the three main characters. There were several directors for the films, changing over the course of all the movies. Steven Spielburg negotiated to direct the first film, but declined the offer. He said it wasn't a challege, he knew it was going to be a success and wildly popular.</p>
+
+            <div id="video">
+                <h3><u>Movie Trailer</u></h3>
+
+                <iframe width="280" height="200" src="https://www.youtube.com/embed/k4j_Uw5Ot6o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2021<a href="https://www.wizardingworld.com" target="blank">Wizarding World of Harry Potter</a></p>
+        </footer>
+    </div>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.min.js"></script>
+    <script src="JS/zenscroll-min.js"></script>
+    <script src="https://kit.fontawesome.com/132925593f.js" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+</body>
+</html>

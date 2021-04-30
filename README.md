@@ -10,4 +10,5 @@
 <a href="LabDemo5/index.html">Lab Demo 5</a><br>
 <a href="LabDemo6/index.html">Lab Demo 6</a><br>
 <a href="LabDemo7/index.html">Lab Demo 7</a><br>
-<a href="Lab8Demo/index.html">Lab Demo 8</a>
+<a href="Lab8Demo/index.html">Lab Demo 8</a><br>
+<a href="FinalProject/index.html">Final Project</a>
